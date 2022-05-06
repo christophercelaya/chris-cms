@@ -1,3 +1,12 @@
+## Vuk Clothing
+
+**Vuk’s vision is a democratized fashion world.  
+
+Your personal items (clothes, shoes, accessories, etc) are stored on the blockchain for you to manage your wardrobe, share items with family and friends, and store hand-me-downs for future generations.  
+
+As a team of entrepreneurs, Vuk takes this bold new approach to what it means to be a fashionable internet citizen.**
+
+
 ## Features
 
 - Performant by default
@@ -91,8 +100,6 @@ BIGCOMMERCE_STORE_API_TOKEN=<>
 BIGCOMMERCE_STORE_API_CLIENT_ID=<>
 BIGCOMMERCE_CHANNEL_ID=<>
 ```
-
-If your project was started with a "Deploy with Vercel" button, you can use Vercel's CLI to retrieve these credentials.
 
 1. Install Vercel CLI: `npm i -g vercel`
 2. Link local instance with Vercel and Github accounts (creates .vercel file): `vercel link`
