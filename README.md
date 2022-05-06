@@ -1,22 +1,3 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fcommerce&project-name=commerce&repo-name=commerce&demo-title=Next.js%20Commerce&demo-description=An%20all-in-one%20starter%20kit%20for%20high-performance%20e-commerce%20sites.&demo-url=https%3A%2F%2Fdemo.vercel.store&demo-image=https%3A%2F%2Fbigcommerce-demo-asset-ksvtgfvnd.vercel.app%2Fbigcommerce.png&integration-ids=oac_MuWZiE4jtmQ2ejZQaQ7ncuDT,oac_9HSKtXld74NG0srzdxSiBGty&skippable-integrations=1&root-directory=site&build-command=cd%20..%20%26%26%20yarn%20build)
-
-# Next.js Commerce
-
-The all-in-one starter kit for high-performance e-commerce sites. With a few clicks, Next.js developers can clone, deploy and fully customize their own store.
-Start right now at [nextjs.org/commerce](https://nextjs.org/commerce)
-
-Demo live at: [demo.vercel.store](https://demo.vercel.store/)
-
-- Shopify Demo: https://shopify.vercel.store/
-- Swell Demo: https://swell.vercel.store/
-- BigCommerce Demo: https://bigcommerce.vercel.store/
-- Vendure Demo: https://vendure.vercel.store
-- Saleor Demo: https://saleor.vercel.store/
-- Ordercloud Demo: https://ordercloud.vercel.store/
-- Spree Demo: https://spree.vercel.store/
-- Kibo Commerce Demo: https://kibocommerce.vercel.store/
-- Commerce.js Demo: https://commercejs.vercel.store/
-
 ## Features
 
 - Performant by default
@@ -91,24 +72,6 @@ For example: Turning `cart` off will disable Cart capabilities.
 Follow our docs for [Adding a new Commerce Provider](packages/commerce/new-provider.md).
 
 If you succeeded building a provider, submit a PR with a valid demo and we'll review it asap.
-
-## Contribute
-
-Our commitment to Open Source can be found [here](https://vercel.com/oss).
-
-1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository to your own GitHub account and then [clone](https://help.github.com/articles/cloning-a-repository/) it to your local device.
-2. Create a new branch `git checkout -b MY_BRANCH_NAME`
-3. Install the dependencies: `yarn`
-4. Duplicate `site/.env.template` and rename it to `site/.env.local`
-5. Add proper store values to `site/.env.local`
-6. Run `cd site` and `yarn dev` to build and watch for code changes
-7. Run `yarn turbo run build` to check the build after your changes
-
-## Work in progress
-
-We're using Github Projects to keep track of issues in progress and todo's. Here is our [Board](https://github.com/vercel/commerce/projects/1)
-
-People actively working on this project: @okbel, @lfades, @dominiksipowicz, @gbibeaul.
 
 ## Troubleshoot
 
